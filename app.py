@@ -5,7 +5,7 @@ from newspaper import Article
 
 # Setting page layout
 st.set_page_config(
-    page_title="Article Summarizer",
+    page_title="KeenSight-Article Summarizer",
     page_icon="✅"
 )
 
@@ -47,7 +47,7 @@ def analyze_sentiment(text, api_key):
 
 # Streamlit App
 def main():
-    st.image('finance.png', width=100)
+    st.image('logo.png', width=200)
     st.title("Financial Article Summarizer")
 
     # Input field for user to provide their OpenAI API key
